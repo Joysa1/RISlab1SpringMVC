@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Apartament</title>
+</head>
+<body>
+<h1>Apartament </h1>
+{{apartament}}
+<div>
+    Shown {{apartament.getCounter}} times
+
+    <form name="apartament" action="/apartament/{{apartament.getId}}" method="post" modelAttribute="filename">
+        Filename: <input type="text" name="filename" /><br/>
+        <input type="submit" value="Save" />
+    </form>
+</div>
+</body>
+</html>

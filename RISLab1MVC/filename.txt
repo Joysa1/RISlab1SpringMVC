@@ -1,0 +1,1 @@
+Apartaments{owner='Stennik', allowAnimals=true, address='Bogomolova 9a', region='Solighorsk'}

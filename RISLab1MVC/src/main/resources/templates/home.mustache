@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1> Existing apartaments of Vlada </h1>
+{{#apartaments}}
+  <div>  {{toString}} <a href="/apartament/{{getId}}">Check</a></div>
+{{/apartaments}}
+</body>
+</html>
